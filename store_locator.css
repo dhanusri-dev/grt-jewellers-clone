@@ -1,0 +1,816 @@
+body {
+    font-family: Figtree-Regular, sans-serif;
+    font-size: 1rem;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+     cursor: pointer;
+     scroll-behavior: smooth;
+}
+.parent_di{
+   width:100%;
+   height:50px;
+    border-bottom: .063rem solid #efdada;
+   display:flex;
+   justify-content:space-between;
+  /* position:fixed; */
+  background-color:white;
+}
+.header1{
+   margin-left:120px;
+}
+.header1 img{
+   width:100px;
+   height:45px;
+   margin-right: 10px;
+   
+}
+
+.header2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#dropdown{
+   width:220px;
+   height:50px;
+   border-style: none;
+   margin-right:10px;
+   font-family:  Figtree-SemiBold, sans-serif;
+    font-size: 1rem;
+  font-weight: 600;
+  color: #681016; 
+  border-right: .063rem solid #efdada;
+  /* padding-right:20px; */
+  /* margin-left:0; */
+}
+.store_locator img{
+   width:35px;
+   height:20px;
+   margin-right:15px;
+    border-right: .063rem solid #efdada;
+    padding-right:5px;
+    margin-left:10px;
+}
+.grt_calender{
+    border-right: .063rem solid #efdada;
+     padding-right:5px;
+     margin-right:10px;
+     margin-left:10px;
+}
+.currency{
+   margin-right:10px;
+   border-right: .063rem solid #efdada;
+     padding-right:5px;
+     margin-left:10px;
+     font-family: Figtree-Medium, sans-serif;
+    font-size: clamp(14px, 2vw, 1.125rem);
+    font-weight: 500;
+    color: #681016;
+}
+.currency img{
+   width:22px;
+   height:15px;
+   margin-right:10px;
+}
+.help{
+  margin-right:110px;
+  font-family: Figtree-SemiBold, sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #681016;
+    line-height: 1.25rem;
+  /* border-right: .063rem solid #efdada;
+     padding-right:5px; */
+}
+.parent2{
+   width:100%;
+   height:80px;
+    border-bottom: .063rem solid #efdada;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    /* position:fixed; */
+    background-color: white;
+    /* top:50px; */
+}
+.left_login{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.grt_logo{
+  margin-left:120px;
+}
+.grt_logo img{
+  width:100px;
+  height:70px;
+  margin-right:20px;
+}
+.delivery{
+  /* font-size: .75rem; */
+  color: #681016;
+  font-family: Figtree-SemiBold, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    /* white-space: nowrap; */
+    margin-right:10px;
+    /* margin-top:0; */
+}
+#virtual_shopping{
+   width:220px;
+   height:50px;
+   border-style: none;
+   margin-right:10px;
+   font-family:  Figtree-SemiBold, sans-serif;
+    font-size: 1rem;
+  font-weight: 600;
+  color: #681016; 
+}
+  .search {
+      margin:0px;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      width:550px;
+      height:40px;
+      border-radius:10px;
+      /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    /* Input field styling */
+    .search input[type="text"] {
+      padding: 10px 15px;
+      border: none;
+      outline: none;
+      width: 100%;
+      font-size: 16px;
+      background-color: transparent;
+      background-color: #faedef;
+    }
+
+    /* Search button with icon */
+    .search button {
+      padding: 10px 15px;
+      background-color:#681016;
+      border: none;
+      cursor: pointer;
+      color: white;
+      font-size: 10px;
+    }
+
+.login{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+
+.login_logo{
+   margin-right:10px;
+   border-right: .063rem solid #efdada;
+     padding-right:5px;
+     margin-left:10px;
+     font-family: Figtree-Medium, sans-serif;
+    font-size: clamp(14px, 2vw, 1.125rem);
+    font-weight: 500;
+    color: #681016;
+    margin-right:10px;
+}
+.wishlist{
+    margin-right:10px;
+    border-right: .063rem solid #efdada;
+     padding-right:5px;
+     margin-left:10px;
+}
+.cart{
+   margin-right:110px;
+  font-family: Figtree-SemiBold, sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #681016;
+    line-height: 1.25rem;
+}
+.menu{
+    color:rgb(104, 16, 22);
+    background-color:#FDEFE9;
+    width:100%;
+    height:60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:35px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+#plan{
+    background: linear-gradient(91.95deg, #b8292f -10%, #7c1a1f -9.98%, #b8292f 59.49%, #73171c 139.43%, #b8292f 139.44%) ;
+    color:white;
+    padding:10px;
+    height:40px;
+    border-radius:20px;
+    display:flex;
+    align-items:  center;
+
+}
+/* all jewellery */
+ .parent_div{
+           width:100%;
+           height:550px;
+           padding:20px;
+           line-height:1.5;
+           display:flex;
+           gap:35px;
+           display:none;
+           background-color: white;
+        }
+        .jewellery img{
+            width:30px;
+            height:30px;
+            margin-right:20px;
+            margin-top:5px;
+        }
+        .jewellery h2{
+            font-family: Figtree-Medium, sans-serif;
+    font-size:1.2rem;
+    font-weight: 600;
+    color: #681016;
+   
+        }
+        .jewellery li{
+              font-family: Figtree-Medium, sans-serif;
+              font-size: 1.2rem;
+              font-weight: 500;
+              color: #681016;
+              list-style: none;
+        }
+        .jewellery{
+            margin-top:10px;
+          
+        }
+        .img_one img{
+            width:500px;
+            height:200px;
+            margin-left:280px;
+            margin-top:20px;
+        }
+        .jewellery_hover:hover+.parent_div{
+          display:flex;
+          position: absolute;
+          z-index: 99;
+          left:0px;
+       
+        }
+
+        /* gold */
+         .gold_jewellery{
+             width:100%;
+           height:550px;
+           padding:20px;
+           line-height:1.5;
+           display:flex;
+           gap:35px;
+           display:none;
+           background-color: white;
+        }
+        .gold_collections{
+             margin-top:10px;
+        }
+        .gold_collections img{
+            width:30px;
+            height:30px;
+            margin-right:20px;
+            margin-top:5px;
+        }
+        .gold_collections li{
+            font-family: Figtree-Medium, sans-serif;
+              font-size: 1.2rem;
+              font-weight: 500;
+              color: #681016;
+              list-style: none;
+        }
+        .gold_collections h2{
+             font-family: Figtree-Medium, sans-serif;
+             font-size:1.2rem;
+            font-weight: 600;
+            color: #681016;
+        }
+        .three_designs img{
+            width:500px;
+            height:200px;
+            margin-left:100px;
+            margin-top:20px;
+        }
+        .gold_hover:hover+.gold_jewellery{
+          display:flex;
+          position: absolute;
+          z-index: 99;
+          left:0px;
+       
+        }
+
+.overall{
+    width:100%;
+    height:200px;
+    background: #fbf4ea;
+}
+.store_head{
+    height:70px;
+    font-size: 2.25rem;
+  line-height: 36px;
+    font-family: Koh Santepheap, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    /* color: #825624; */
+    background: linear-gradient(90deg, #d2a679, #5a3d2b);
+    background-clip: text;
+    color: transparent;
+    letter-spacing: -1px;
+    /* margin-top:50px; */
+    text-align:center;
+    margin-bottom:20px;
+    padding-top: 20px;
+    /* margin-top:50px; */
+
+}
+
+.para{
+    font-family: Figtree-Medium, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #825624;
+    text-align:center;
+    /* margin-top:30px; */
+}
+.location_dropdown{
+    display:flex;
+    justify-content:center;
+}
+#location{
+   /* margin-top:20px;  */
+   width:430px;
+   height:50px; 
+   border: 1px solid #e7e2db;
+    /* height: 50px; */
+    /* width: 100%; */
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    /* border-style:none ; */
+}
+.grid{
+    width:100%;
+    height:3480px;
+    background: #fbf4ea;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,390px));
+    justify-content:center;
+    gap:50px;
+    /* margin-left:50px; */
+}
+.parent_grid{
+    margin-top:30px;
+    width:430px;
+    height:490px;
+    background: linear-gradient(90.02deg, #fdeccf -65.85%, #f6ebd6 101.81%);
+    border-radius: 20px;
+    padding:20px;
+    line-height: 1.5;
+}
+.child1_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2Fcoats_road_GRT_image_1920x960.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child2_grid{
+    width:100%;
+    height:65%;
+    margin-top:20px;
+}
+.child2_grid h2{
+     margin-bottom: .3rem;
+    font-family: Figtree-SemiBold, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #472800;
+}
+.child2_grid p{
+    color: #472800;
+    font-size: .875rem;
+    /* flex-grow: 1; */
+}
+.child2_grid h3{
+    color: #472800;
+        font-weight: 600;
+}
+.child2_grid h4{
+    font-family: Figtree-SemiBold, sans-serif;
+    font-size: clamp(14px, 2vw, 1.125rem);
+    font-weight: 600;
+    color: #472800;
+    margin-top:8px;
+    
+
+}
+.child2_grid button{
+    background: linear-gradient(241.07deg, #fbd791 1.41%, #cda24c 99.01%);
+    font-family: Figtree-SemiBold, sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #5f3500;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-style: none;
+    margin-top:10px;
+}
+.child3_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2Fusman_road_t_nagar_GRT_1920x960.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child4_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2FMangesh_street_GRT_-_1920x960.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child5_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2FAdyar_GRT_1920x960.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child6_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2FAnna_Nagar_West_GRT_GRT_1920x960.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child7_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2FNanganallur_GRT-3240x1620.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child8_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2FOld_Washermenpet_GRT-D.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child9_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2FPerambur_GRT-M.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child10_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2Fpoonamallee_GRT-D.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child11_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2FPurasawalkam_GRT-M.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child12_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2FRed_hills_GRT-M.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child13_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2Ftambaram_GRT-M.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child14_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2Fvelachery_GRT_-_1920x960.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child15_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2Fanna_nagar_rountana_GRT_1920x960.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child16_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2Fkarapakkam_GRT_3240x1620_copy_13.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child17_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2FAavadi_GRT_1920x960.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.child18_grid{
+    width:100%;
+    height:45%;
+    background-image: url(https://www.grtjewels.com/_next/image/?url=https%3A%2F%2Fmedia.grtjewels.com%2Fgooglemapsstorelocator%2Fimage%2Fvalasaravakkam_GRT_-_1920x960.jpg&w=1080&q=75);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.middle{
+    width:100%;
+    height:100px;
+    background-color:white;
+    position: absolute;
+    top:4000px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:50px;
+    line-height:1.5;
+    text-align:center;
+}
+/* .hallmark h2,p{
+    margin-top:10px;
+    -align:center; 
+} */
+.hallmark img{
+    width:80px;
+    height:75px;
+}
+.h2{
+    margin-top:10px;
+    font-family: Figtree-SemiBold, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #681016;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.p{
+    /* margin-top:10px; */
+    font-family: Figtree-Regular, sans-serif;
+    font-weight: 400;
+    color: #681016;
+}
+ .footer{
+             width:100%;
+             height:580px;
+             background-color:white;
+              color:#681016;
+              display:flex;
+              justify-content:center;
+              position:absolute;
+              top:4200px;
+              
+              /* text-align:left; */
+           }
+           .footer_grt{
+              width:93%;
+              height:100% ;
+              background: linear-gradient(197.69deg, #fff8e5 5.17%, #fff0ca 99.34%);
+             /* margin:30px; */
+             margin-bottom:100px;
+             padding:30px;
+             display:flex;
+             justify-content:space-between;
+             border-radius:20px;
+             /* gap:100px; */
+           }
+           .footer_left{
+              width:20%;
+              height:100%;
+              /* background-image: url(../images/GRT_Logo.png); */
+              
+           }
+          .up{
+            display: flex;
+            /* justify-content: center; */
+            gap:150px;
+          }
+          .up1 h2{
+             font-family: Koh Santepheap, sans-serif;
+                font-size: 2rem;
+                font-weight: 400;
+                color:#681016;
+          }
+          .up1 p{
+            text-align: left;
+            line-height:1.5 ;
+            margin-top:20px;
+          }
+          .icon{
+             font-size:20px;
+             /* border-radius:50%; */
+             /* background-color: #681016; */
+          }
+          .border{
+            height:60px;
+            border-top: 1px solid #681016;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top:10px;
+          }
+          .border1{
+            border-bottom: 1px solid #681016;
+          }
+          #icon{
+            /* height:20px; */
+             border-radius:50%;
+             background-color:#681016;
+             /* padding:10px; */
+             /* text-align:cente;d */
+             /* display:flex;
+             justify-content: center; */
+          }
+          .right_down{
+             text-align:right;
+          }
+          .left_footer{
+            margin-top:50px;
+            margin-left:50px;
+          }
+          .up1 img{
+             width:30px;
+             height:25px;
+             margin-right:10px;
+          }
+          .footer_img img{
+             width:35px;
+             height:25px;
+             margin-top:10px;
+             margin-right:5px;
+          }
+
+                 @media (max-width: 768px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+   .header1{
+    display:none;
+  }
+  .currency{
+    display:none;
+  }
+  .help{
+    display:none;
+  }
+  .store_locator{
+    margin-left:150px;
+  }
+  .delivery{
+    display:none;
+  }
+  .virtual_shopping{
+    display:none;
+  }
+  #sem{
+    display: none;
+  }
+  #men{
+    display:none;
+  }
+  .login_logo{
+    display:none;
+  }
+#grt_logo{
+  margin-left:-100px;
+}
+.store_head p{
+    font-size:2rem
+}
+.para{
+    font-size:1rem
+}
+.middle{
+    display:block;
+    margin-top:6000px;
+}
+.footer{
+    margin-top:6550px;
+}
+.up{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+.footer_grt{
+  display: block;
+}
+.up1 p{
+  display: none;
+  line-height: 10px;
+}
+.up1 h2{
+  display: none;
+}
+.media{
+  margin-top: -250px;
+}
+.footer_grt{
+  height:620px;
+}
+.right_down{
+  font-size:.800rem;
+  text-align:center;
+  margin-top:20px;
+}
+}
+
+/* ----------- TABLET (575px to 1199px) ----------- */
+@media (min-width: 769px) and (max-width: 1199px){
+  .header1{
+    margin-left:-0px;
+  }
+.store_locator{
+  margin-left:100px;
+}
+.calender{
+  margin-left:20px;
+}
+.currency{
+  margin-left:20px;
+}
+.help{
+  margin-left:20px;
+}
+.grt_logo{
+  margin-left:-0px;
+}
+.delivery{
+  font-size:1rem;
+}
+#virtual_shopping{
+  width:100px;
+}
+.menu{
+  height:100px;
+  font-size:.800rem;
+}
+#plan{
+  margin-top:-50px;
+  margin-left:800px;
+}
+.middle{
+  margin-left:50px;
+width:1000px;
+
+    margin-top:1610px;
+}
+.footer{
+    margin-top:1650px;
+}
+.left_footer img{
+  width:180px;
+  /* height:180px; */
+  /* margin-left:-40px; */
+}
+.right_footer{
+  margin-right:px;
+}
+.up1 h2{
+ font-size:1.5rem ;
+}
+.up1 p{
+  font-size:.900rem;
+}
+.up{
+  display:flex;
+  gap:80px;
+}
+}
+

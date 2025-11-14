@@ -1,0 +1,672 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+     cursor: pointer;
+     scroll-behavior: smooth;
+}
+.parent_di{
+   width:100%;
+   height:50px;
+    border-bottom: .063rem solid #efdada;
+   display:flex;
+   justify-content:space-between;
+  /* position:fixed; */
+  background-color:white;
+}
+.header1{
+   margin-left:120px;
+}
+.header1 img{
+   width:100px;
+   height:45px;
+   margin-right: 10px;
+   
+}
+
+.header2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#dropdown{
+   width:220px;
+   height:50px;
+   border-style: none;
+   margin-right:10px;
+   font-family:  Figtree-SemiBold, sans-serif;
+    font-size: 1rem;
+  font-weight: 600;
+  color: #681016; 
+  border-right: .063rem solid #efdada;
+  /* padding-right:20px; */
+  /* margin-left:0; */
+}
+.store_locator img{
+   width:35px;
+   height:20px;
+   margin-right:15px;
+    border-right: .063rem solid #efdada;
+    padding-right:5px;
+    margin-left:10px;
+}
+.grt_calender{
+    border-right: .063rem solid #efdada;
+     padding-right:5px;
+     margin-right:10px;
+     margin-left:10px;
+}
+.currency{
+   margin-right:10px;
+   border-right: .063rem solid #efdada;
+     padding-right:5px;
+     margin-left:10px;
+     font-family: Figtree-Medium, sans-serif;
+    font-size: clamp(14px, 2vw, 1.125rem);
+    font-weight: 500;
+    color: #681016;
+}
+.currency img{
+   width:22px;
+   height:15px;
+   margin-right:10px;
+}
+.help{
+  margin-right:110px;
+  font-family: Figtree-SemiBold, sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #681016;
+    line-height: 1.25rem;
+  /* border-right: .063rem solid #efdada;
+     padding-right:5px; */
+}
+.parent2{
+   width:100%;
+   height:100px;
+    border-bottom: .063rem solid #efdada;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    /* position:fixed; */
+    background-color: white;
+    /* top:50px; */
+}
+.left_login{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.grt_logo{
+  margin-left:120px;
+}
+.grt_logo img{
+  width:100px;
+  height:70px;
+  margin-right:20px;
+}
+.delivery{
+  /* font-size: .75rem; */
+  color: #681016;
+  font-family: Figtree-SemiBold, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    /* white-space: nowrap; */
+    margin-right:10px;
+    /* margin-top:0; */
+}
+#virtual_shopping{
+   width:220px;
+   height:50px;
+   border-style: none;
+   margin-right:10px;
+   font-family:  Figtree-SemiBold, sans-serif;
+    font-size: 1rem;
+  font-weight: 600;
+  color: #681016; 
+}
+ 
+  
+  /* border-right: .063rem solid #efdada; */
+  .search {
+      margin:0px;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      width:550px;
+      height:40px;
+      border-radius:10px;
+      /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    /* Input field styling */
+    .search input[type="text"] {
+      padding: 10px 15px;
+      border: none;
+      outline: none;
+      width: 100%;
+      font-size: 16px;
+      background-color: transparent;
+      background-color: #faedef;
+    }
+
+    /* Search button with icon */
+    .search button {
+      padding: 10px 15px;
+      background-color:#681016;
+      border: none;
+      cursor: pointer;
+      color: white;
+      font-size: 10px;
+    }
+
+.login{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+
+.login_logo{
+   margin-right:10px;
+   border-right: .063rem solid #efdada;
+     padding-right:5px;
+     margin-left:10px;
+     font-family: Figtree-Medium, sans-serif;
+    font-size: clamp(14px, 2vw, 1.125rem);
+    font-weight: 500;
+    color: #681016;
+    margin-right:10px;
+}
+.wishlist{
+    margin-right:10px;
+    border-right: .063rem solid #efdada;
+     padding-right:5px;
+     margin-left:10px;
+}
+.cart{
+   margin-right:110px;
+  font-family: Figtree-SemiBold, sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #681016;
+    line-height: 1.25rem;
+}
+.menu{
+    color:rgb(104, 16, 22);
+    background-color:#FDEFE9;
+    width:100%;
+    height:60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:35px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 50px;
+    /* position:sticky; */
+    /* top:10px; */
+    /* position: relative; */
+    /* font-size:1.2rem; */
+}
+#plan{
+    background: linear-gradient(91.95deg, #b8292f -10%, #7c1a1f -9.98%, #b8292f 59.49%, #73171c 139.43%, #b8292f 139.44%) ;
+    color:white;
+    padding:10px;
+    height:40px;
+    border-radius:20px;
+    display:flex;
+    align-items:  center;
+
+}
+
+ /* all jewellery */
+ .parent_div{
+           width:100%;
+           height:550px;
+           padding:20px;
+           line-height:1.5;
+           display:flex;
+           gap:35px;
+           display:none;
+           background-color: white;
+        }
+        .jewellery img{
+            width:30px;
+            height:30px;
+            margin-right:20px;
+            margin-top:5px;
+        }
+        .jewellery h2{
+            font-family: Figtree-Medium, sans-serif;
+    font-size:1.2rem;
+    font-weight: 600;
+    color: #681016;
+   
+        }
+        .jewellery li{
+              font-family: Figtree-Medium, sans-serif;
+              font-size: 1.2rem;
+              font-weight: 500;
+              color: #681016;
+              list-style: none;
+        }
+        .jewellery{
+            margin-top:10px;
+          
+        }
+        .img_one img{
+            width:500px;
+            height:200px;
+            margin-left:280px;
+            margin-top:20px;
+        }
+        .jewellery_hover:hover+.parent_div{
+          display:flex;
+          position: absolute;
+          z-index: 99;
+          left:0px;
+       
+        }
+
+        /* gold */
+         .gold_jewellery{
+             width:100%;
+           height:550px;
+           padding:20px;
+           line-height:1.5;
+           display:flex;
+           gap:35px;
+           display:none;
+           background-color: white;
+        }
+        .gold_collections{
+             margin-top:10px;
+        }
+        .gold_collections img{
+            width:30px;
+            height:30px;
+            margin-right:20px;
+            margin-top:5px;
+        }
+        .gold_collections li{
+            font-family: Figtree-Medium, sans-serif;
+              font-size: 1.2rem;
+              font-weight: 500;
+              color: #681016;
+              list-style: none;
+        }
+        .gold_collections h2{
+             font-family: Figtree-Medium, sans-serif;
+             font-size:1.2rem;
+            font-weight: 600;
+            color: #681016;
+        }
+        .three_designs img{
+            width:500px;
+            height:200px;
+            margin-left:100px;
+            margin-top:20px;
+        }
+        .gold_hover:hover+.gold_jewellery{
+          display:flex;
+          position: absolute;
+          z-index: 99;
+          left:0px;
+       
+        }
+
+        /* login */
+        .login_parent{
+            width:100%;
+            height:900px;
+            background-color:#b6b5b3;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login_child{
+            width:630px;
+            height:800px;
+            border-radius:20px;
+            background-color:white;
+            padding:30px;
+            /* margin-top:50px; */
+        }
+        .top_grt{
+            width:100%;
+            height:100px;
+            background: linear-gradient(90.02deg, #fdeccf -65.85%, #f6ebd6 101.81%);
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+                    }
+        .grt{
+            width:80px;
+            height:80px;
+              /* padding: 30px 0; */
+            background-image:url(../images/GRT_Logo.png);
+            background-size:100% 100%;
+            background-repeat:no-repeat;
+        }
+        .login_grt{
+              line-height:1.5;
+        }
+        .login_grt h2{
+            font-family: Figtree, sans-serif;
+            font-size: clamp(18px, 2vw, 1.875rem);
+           font-weight: 600;
+           color: #681016;
+           text-align:center;
+           margin-top:20px;
+        }
+        .login_grt p{
+            margin-top:10px;
+            font-family: Figtree, sans-serif;
+            font-size: clamp(14px, 2vw, 1.125rem);
+                font-weight: 400;
+             color: #242021;
+             text-align: center;
+           margin-top: 15px;
+           /* width:95%; */
+}
+        .login_input{
+            display:flex;
+            justify-content: center;
+          align-items: center;
+          margin-top:20px;
+
+        }
+         #input{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            width:430px;
+            height:50px;
+            border-style: none;
+            border-radius: 10px;
+         }
+         .button_parent{
+            display:flex;
+            justify-content: center;
+          align-items: center;
+         }
+        .button{
+            width:230px;
+            height:60px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            display:flex;
+            justify-content: center;
+          align-items: center;
+           margin-top:20px;
+          
+        }
+        .button button{
+            width:20px;
+            height:20px;
+
+        }
+        .otp{
+            display:flex;
+            justify-content: center;
+          align-items: center;
+            margin-top:20px;
+        }
+        .otp button{
+             width:430px;
+            height:50px;
+            border-style: none;
+            border-radius: 10px;
+            background: #681016;
+            font-weight: 500;
+           line-height: 50px;
+           padding: 0;
+           color: #fff;
+           font-size:1.2rem;
+        }
+        .or{
+            margin-top:20px;
+        }
+        .google_button{
+            margin-top:20px;
+             display:flex;
+            justify-content: center;
+          align-items: center;
+        }
+        .google_button button{
+            width:180px;
+            height:50px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            border-style: none;
+            font-family: Figtree-Medium, sans-serif;
+             font-size: clamp(14px, 2vw, 1.125rem);
+             font-weight: 500;
+           color: #202124;
+}
+    .sign_up{
+          margin-top:20px;
+             display:flex;
+            justify-content: space-between;
+          align-items: center;
+    }
+    .sign_up p{
+        text-decoration: underline;
+       font-family: Figtree-Medium, sans-serif;
+       font-size: clamp(14px, 2vw, 1.125rem);
+      font-weight: 500;
+        color: #681016;
+
+    }
+
+               /* footer */
+           .footer{
+             width:100%;
+             height:580px;
+             background-color:white;
+              color:#681016;
+              display:flex;
+              justify-content:center;
+              
+              /* text-align:left; */
+           }
+           .footer_grt{
+              width:93%;
+              height:100% ;
+              background: linear-gradient(197.69deg, #fff8e5 5.17%, #fff0ca 99.34%);
+             /* margin:30px; */
+             margin-bottom:100px;
+             padding:30px;
+             display:flex;
+             justify-content:space-between;
+             border-radius:20px;
+             /* gap:100px; */
+           }
+           .footer_left{
+              width:20%;
+              height:100%;
+              /* background-image: url(../images/GRT_Logo.png); */
+              
+           }
+          .up{
+            display: flex;
+            /* justify-content: center; */
+            gap:150px;
+          }
+          .up1 h2{
+             font-family: Koh Santepheap, sans-serif;
+                font-size: 2rem;
+                font-weight: 400;
+                color:#681016;
+          }
+          .up1 p{
+            text-align: left;
+            line-height:1.5 ;
+            margin-top:20px;
+          }
+          .icon{
+             font-size:20px;
+             /* border-radius:50%; */
+             /* background-color: #681016; */
+          }
+          .border{
+            height:60px;
+            border-top: 1px solid #681016;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top:10px;
+          }
+          .border1{
+            border-bottom: 1px solid #681016;
+          }
+          #icon{
+            /* height:20px; */
+             border-radius:50%;
+             background-color:#681016;
+             /* padding:10px; */
+             /* text-align:cente;d */
+             /* display:flex;
+             justify-content: center; */
+          }
+          .right_down{
+             text-align:right;
+          }
+          .left_footer{
+            margin-top:50px;
+            margin-left:50px;
+          }
+          .up1 img{
+             width:30px;
+             height:25px;
+             margin-right:10px;
+          }
+          .footer_img img{
+             width:35px;
+             height:25px;
+             margin-top:10px;
+             margin-right:5px;
+          }
+
+           @media (max-width: 768px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+   .header1{
+    display:none;
+  }
+  .currency{
+    display:none;
+  }
+  .help{
+    display:none;
+  }
+  .store_locator{
+    margin-left:150px;
+  }
+  .delivery{
+    display:none;
+  }
+  .virtual_shopping{
+    display:none;
+  }
+  #sem{
+    display: none;
+  }
+  #men{
+    display:none;
+  }
+  .login_logo{
+    display:none;
+  }
+#grt_logo{
+  margin-left:-100px;
+}
+.up{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+.footer_grt{
+  display: block;
+}
+.up1 p{
+  display: none;
+  line-height: 10px;
+}
+.up1 h2{
+  display: none;
+}
+.media{
+  margin-top: -250px;
+}
+.footer_grt{
+  height:620px;
+}
+.right_down{
+  font-size:.800rem;
+  text-align:center;
+  margin-top:20px;
+}
+}
+
+/* ----------- TABLET (575px to 1199px) ----------- */
+@media (min-width: 769px) and (max-width: 1199px){
+  .header1{
+    margin-left:-0px;
+  }
+.store_locator{
+  margin-left:100px;
+}
+.calender{
+  margin-left:20px;
+}
+.currency{
+  margin-left:20px;
+}
+.help{
+  margin-left:20px;
+}
+.grt_logo{
+  margin-left:-0px;
+}
+.delivery{
+  font-size:1rem;
+}
+#virtual_shopping{
+  width:100px;
+}
+.menu{
+ height:100px;
+  font-size:.900rem;
+  
+}
+#plan{
+ margin-top:-50px;
+  margin-left:800px
+}
+.left_footer img{
+  width:180px;
+  
+}
+.footer{
+  margin-top:20px;
+}
+.right_footer{
+  margin-right:px;
+}
+.up1 h2{
+ font-size:1.5rem ;
+}
+.up1 p{
+  font-size:.900rem;
+}
+.up{
+  display:flex;
+  gap:80px;
+}
+}
